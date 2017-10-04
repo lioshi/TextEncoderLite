@@ -6,7 +6,7 @@
     "AJ ONeal <awesome@coolaj86.com>"
   ],
   "description": "Polyfill for the Encoding Living Standard's API",
-  "main": [ "index.js", "text-encoder-lite.min.js" ],
+  "main": [ "text-encoder-lite.js", "text-encoder-lite.min.js" ],
   "keywords": [
     "decoding",
     "encoding",
