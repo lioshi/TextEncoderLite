@@ -39,7 +39,7 @@ Or add it to your `bower.json` dependencies.
 
 ```html
   <!-- Required for non-UTF encodings -->
-  <script src="bower_components/text-encoder-lite/index.js"></script>
+  <script src="bower_components/text-encoder-lite/text-encoder-lite.js"></script>
 ```
 
 ### API Overview ###
