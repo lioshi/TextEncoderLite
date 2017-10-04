@@ -1,7 +1,7 @@
 TextEncoderLite
 ==============
 
-Extracted from [Feross' Buffer](https://github.com/feross/buffer) as a lightweight Pollyfill
+Extracted from [Feross' Buffer](https://github.com/feross/buffer) as a lightweight Polyfill
 for TextEncoder.
 
 See also
