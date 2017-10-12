@@ -1,12 +1,12 @@
 {
   "name": "text-encoder-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/coolaj86/text-encoder-lite",
   "authors": [
     "AJ ONeal <awesome@coolaj86.com>"
   ],
   "description": "Polyfill for the Encoding Living Standard's API",
-  "main": [ "index.js" ],
+  "main": [ "text-encoder-lite.js", "text-encoder-lite.min.js" ],
   "keywords": [
     "decoding",
     "encoding",

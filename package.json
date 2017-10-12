@@ -3,11 +3,11 @@
   "author": "AJ ONeal <awesome@coolaj86.com>",
   "contributors": [
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Lite Polyfill for the Encoding Living Standard's API.",
-  "main": "index.js",
+  "main": "text-encoder-lite.js",
   "files": [
-    "index.js"
+    "text-encoder-lite.js", "text-encoder-lite.min.js"
   ],
   "repository": {
     "type": "git",
