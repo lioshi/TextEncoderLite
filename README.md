@@ -25,6 +25,13 @@ npm install text-encoder-lite
 
 Or add it to your `package.json` dependencies.
 
+You can use it as follows:
+
+```js
+var TextDecoder = require('TextDecoderLite').TextDecoderLite;
+var TextEncoder = require('TextDecoderLite').TextEncoderLite;
+```
+
 #### Bower ####
 
 `text-encoder-lite` is on `bower` as well. Install with bower like so:
@@ -40,6 +47,13 @@ Or add it to your `bower.json` dependencies.
 ```html
   <!-- Required for non-UTF encodings -->
   <script src="bower_components/text-encoder-lite/text-encoder-lite.js"></script>
+```
+
+And in your scripts:
+
+```js
+var TextDecoder = window.TextDecoderLite;
+var TextEncoder = window.TextEncoderLite;
 ```
 
 ### API Overview ###
