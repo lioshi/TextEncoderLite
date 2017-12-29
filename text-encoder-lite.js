@@ -134,6 +134,10 @@ TextDecoderLite.prototype.decode = function (bytes) {
 
 }());
 
-if(typeof module === "object" && module) {  
-  module.exports = TextDecoderLite
+if(typeof module === "object" && module) {
+  TextDecoderLite.TextDecoderLite = TextDecoderLite;
+  TextDecoderLite.TextEncoderLite = TextEncoderLite;
+  module.exports.TextDecoderLite = TextDecoderLite;
+  module.exports.TextEncoderLite = TextEncoderLite;
+  module.exports = TextDecoderLite;
 }
