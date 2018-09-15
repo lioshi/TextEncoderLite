@@ -118,6 +118,7 @@ function decodeUtf8Char (str) {
 
 TextEncoderLite.prototype.encode = function (str) {
   var result;
+  console.log('TextEncoderLite')
 
   if ('undefined' === typeof Uint8Array) {
     result = utf8ToBytes(str);
